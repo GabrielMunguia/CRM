@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/clientes'
+const url = 'http://my-json-server.typicode.com/GabrielMunguia/CRM/clientes'
 
 
 /// NUEVO CLIENTE 
@@ -25,6 +25,7 @@ export const obtenerClientes = async() => {
 
         const resultado = await fetch(url);
         const clientes = await resultado.json();
+        console.log(clientes)
         return clientes;
 
     } catch (error) {
