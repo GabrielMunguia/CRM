@@ -1,32 +1,11 @@
 {
   "clientes": [
     {
-      "nombre": "fatima gabriela arce batresu",
-      "email": "juayua20dsad11@gmail.com",
-      "telefono": "60457714",
-      "empresa": "xxxxxxxxx",
-      "id": 31
-    },
-    {
       "nombre": "1",
       "email": "1@1.com",
       "telefono": "60457714",
       "empresa": "1",
-      "id": 32
-    },
-    {
-      "nombre": "fatima gabriela arce batres",
-      "email": "juayua2011@gmail.com",
-      "telefono": "60457714",
-      "empresa": "dsad",
-      "id": 33
-    },
-    {
-      "nombre": "1",
-      "email": "1@1.com",
-      "telefono": "60457714",
-      "empresa": "1",
-      "id": 34
+      "id": 35
     }
   ]
 }

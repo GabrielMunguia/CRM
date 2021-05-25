@@ -44,3 +44,14 @@ import { obtenerClientes, eliminarCliente } from './API.js'
 
     }
 })();
+
+
+const probarAPI = async() => {
+    console.log('hisda')
+    const url = 'http://my-json-server.typicode.com/GabrielMunguia/CRM/clientes';
+    const res = await fetch(url);
+    const respuesta = await res.json();
+    console.log(respuesta)
+
+}
+probarAPI();
