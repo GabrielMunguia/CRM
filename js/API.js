@@ -1,4 +1,4 @@
-const url = 'https://my-json-server.typicode.com/GabrielMunguia/CRM/clientes'
+const url = 'http://my-json-server.typicode.com/GabrielMunguia/CRM/clientes'
 
 
 /// NUEVO CLIENTE 
@@ -11,6 +11,8 @@ export const nuevoCliente = async cliente => {
                     'Content-Type': 'application/json'
                 }
             })
+
+            console.log(url)
 
             window.location.href = 'index.html'
 
