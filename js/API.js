@@ -1,4 +1,4 @@
-const url = 'http://my-json-server.typicode.com/GabrielMunguia/CRM/clientes'
+const url = 'https://my-json-server.typicode.com/GabrielMunguia/CRM/clientes'
 
 
 /// NUEVO CLIENTE 
